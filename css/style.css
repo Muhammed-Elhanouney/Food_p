@@ -1,0 +1,356 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    background-color: white;
+    color: #555;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.heroBox{
+    position: absolute;
+    left: 10%; 
+    top: 40%;
+}
+h1{
+color: white;
+font-size: 200%;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-weight: lighter;
+margin-bottom: 15px;
+}
+.btn{
+    border: solid 1px #E67E22;
+    padding: 10px 20px ;
+    margin-right: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #E67E22;
+}
+.btn:hover{
+    color: white;
+    background-color: #E67E22;
+}
+.logo{
+    float: left;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.mainNav{
+    float: right;
+    margin-top: 60px;
+    list-style: none;
+}
+.mainNav li{
+    display: inline-block;
+    margin-right: 13px;
+    
+}
+.mainNav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.mainNav li a:hover{
+    text-decoration: underline;
+    color: #E67E22 ;  
+}
+h2{
+    color: #555555;
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-align: center;
+    
+    
+}
+section{
+    padding: 40px 0px; 
+    display: flex;
+}
+/* hr{
+    
+    width: 100px;
+    border: solid 1px #E67E22;
+    margin: 15px auto;
+} */
+h2::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #E67E22;
+    margin: 35px auto;
+}
+.helloP{
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    
+}
+.box i{
+    color: #E67E22;
+    font-size: 70px;
+    margin-left: 50px;
+    margin-bottom: 21px;
+}
+
+.box h3{
+    color: #555555;
+    font-size: 120%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.box p{
+    line-height: 185%;
+    margin-bottom: 35px;
+}
+.meal{
+    padding: 0;
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+.meal img{
+    width: 100%;
+    opacity: .5;
+    transition: all 1s ;
+    transform: scale(1.1);
+    
+}
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+.city img{
+    width: 100%;
+}
+.city h3{
+    /* text-align: center; */
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.info{
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.info i{
+    margin-right: 10px;
+    color: #E67E22;
+}
+.info a{
+    text-decoration: none;
+    color: #555555;
+  
+}
+.info a:hover{
+    text-decoration: underline;
+    color: #E67E22 ;  
+}
+.testimonials{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url(../images/back-customers.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #F4F4F4;
+}
+.testimonials h2{
+    color: #F4F4F4;
+}
+blockquote{
+    margin-top: 20px;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    line-height: 150%;
+}
+cite{
+    display: block;
+    margin-top: 20px;
+}
+cite img{
+    height: 50px; 
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.text{
+    margin-left: 20px;
+}
+input , textarea , select{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+input[type=checkbox]{
+    width: 10%;
+}
+.send{
+    padding: 15px 30px;
+    background-color: #333333;
+    border-radius: 25px;
+    color: white;
+    font-size: 100%;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-align: center;
+    border: whitesmoke;
+    margin-left: 83.125px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: #E67E22;
+    color:white ;
+}
+footer{
+    padding: 40px 0px;
+    background-color: #333333;
+}
+footer p{
+    text-align: center;
+    color:#888 ;
+}
+.footerNav{
+    float: left;
+    list-style: none;
+}
+.footerNav li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.footerNav li a{
+    text-decoration: none;
+    color: #888;
+   
+}
+.footerNav li a:hover{
+    text-decoration: underline;
+    color: white ;  
+}
+.socialNav{
+    float: right;
+    list-style: none;
+}
+.socialNav li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.socialNav li a{
+    text-decoration: none;
+    color: #888;
+   
+}
+.socialNav li a:hover{
+    text-decoration: underline;
+    color: white ;  
+}
+
+.spinner {
+    margin: 100px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    
+    -webkit-animation: sk-rotate 2.0s infinite linear;
+    animation: sk-rotate 2.0s infinite linear;
+  }
+  
+  .dot1, .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    border-radius: 100%;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+  @keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
+
+  .loader{
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-color: #E67E22;
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  ::-webkit-scrollbar{
+      width: 5px;
+  }
+  ::-webkit-scrollbar-track{
+      background-color: #333333;
+  }
+
+  ::-webkit-scrollbar-thumb{
+      background-color: #E67E22;
+      border-radius: 30px;
+  }
+
+
+
+
+
+
